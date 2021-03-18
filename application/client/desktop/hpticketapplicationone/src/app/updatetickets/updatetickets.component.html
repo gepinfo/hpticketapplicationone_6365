@@ -1,0 +1,26 @@
+<h2 class="screen-align">Updatetickets</h2>
+<div id="template-ix4p" class="row">
+    <div id="template-iv2f" class="cell">
+        <label id="template-i3zo" class="label">Ticket Name</label>
+        <input id="template-ij2u3" [(ngModel)]="tickets.ticketname"
+        [ngModelOptions]="{standalone: true}" class="input form-control" />
+    </div>
+    <div id="template-ixym" class="cell">
+        <label id="template-iosq" class="label">Description</label>
+        <input id="template-iw6iv" [(ngModel)]="tickets.ticketdescription"
+        [ngModelOptions]="{standalone: true}" class="input form-control" />
+    </div>
+</div>
+<div id="template-ikna" class="row">
+    <div id="template-isjd" class="cell">
+        <label id="template-idg79" class="label">Service Type</label>
+        <input id="template-i3hbl" [(ngModel)]="tickets.servicetype"
+        [ngModelOptions]="{standalone: true}" class="input form-control" />
+    </div>
+    <div id="template-ix1t" class="cell">
+        <label id="template-iarss" class="label">Severity</label>
+        <input id="template-irnl3" [(ngModel)]="tickets.severity"
+        [ngModelOptions]="{standalone: true}" class="input form-control" />
+    </div>
+</div>
+<button id="template-iva2b" (click)="GpUpdate()" class="button btn btn-primary">Update</button>
