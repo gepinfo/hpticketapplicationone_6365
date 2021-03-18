@@ -4,6 +4,8 @@
     ,
 {"resources":"admin", "role":"Guest"}
     ,
+{"resources":"createservicetype", "role":"Guest"}
+    ,
 {"resources":"createseverity", "role":"Guest"}
     ,
 {"resources":"createtickets", "role":"Guest"}
@@ -13,7 +15,5 @@
 {"resources":"updatetickets", "role":"Guest"}
     ,
 {"resources":"searchtickets", "role":"Guest"}
-    ,
-{"resources":"createservicetype", "role":"Guest"}
     
 ]

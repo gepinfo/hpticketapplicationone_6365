@@ -81,7 +81,7 @@ services:
     image: ticket-6365
     container_name: ticket-6365
     ports: 
-      - 8008:8008
+      - 8011:8011
     env_file: .env
     depends_on:
       - mongo
@@ -91,7 +91,7 @@ services:
     image: servicetype-6365
     container_name: servicetype-6365
     ports: 
-      - 8009:8009
+      - 8012:8012
     env_file: .env
     depends_on:
       - mongo
@@ -101,7 +101,7 @@ services:
     image: severity-6365
     container_name: severity-6365
     ports: 
-      - 8010:8010
+      - 8013:8013
     env_file: .env
     depends_on:
       - mongo
